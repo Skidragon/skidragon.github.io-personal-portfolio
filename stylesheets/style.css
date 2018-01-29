@@ -97,11 +97,12 @@ ul.main-menu-list {
   padding: 0;
 }
 
-.main-menu-list li {
+.main-menu-list a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  padding: 0;
+  width: 25%;
   text-transform: uppercase;
   font-weight: bold;
   font-family: Josefin Sans, sans-serif;
@@ -109,23 +110,24 @@ ul.main-menu-list {
   color: white;
   border-right: 5px solid black;
   font-size: 16px;
+  text-decoration: none;
   cursor: pointer;
   transition-property: background;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 
-.main-item:hover {
+.main-menu-list a:hover {
   background: lightblue;
   color: black;
   font-size: 20px;
 }
 
-.main-item:first-child {
+.main-menu-list a:first-child {
   border-bottom-left-radius: 5px;
 }
 
-.main-item:last-child {
+.main-menu-list a:last-child {
   border-right: none;
   border-bottom-right-radius: 5px;
 }
