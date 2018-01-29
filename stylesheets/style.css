@@ -22,13 +22,6 @@ a {
 
 /*Global Section*/
 
-.main-title {
-  position: absolute;
-  top: 20%;
-  font-size: 2.5em;
-  color: white;
-  z-index: 5;
-}
 
 .section-title-container {
   display: flex;
@@ -44,8 +37,15 @@ a {
   color: white;
 }
 
-/*Twin Pics Above The Fold*/
+/*Twin Pics & Title Above The Fold*/
 
+.main-title {
+  position: absolute;
+  top: 20%;
+  font-size: 2.5em;
+  color: white;
+  z-index: 5;
+}
 .twin-pics {
   position: relative;
 }
